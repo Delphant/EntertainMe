@@ -1,0 +1,145 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.login {
+    background-image: url("/backg.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 100dvh;
+    display:flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+   
+    margin: 0;
+
+    background: #3D3D3D;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+}
+
+/* @media (min-device-pixel-ratio: 1.10){
+    .box{
+    transform: scale(calc(1/1.0));
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25){
+    .box{
+        transform: scale(calc(1/1.2));
+    }
+} */
+
+/* When screen is under set nums NEED TO FIX!!!!!*/
+@media screen and (max-width:40rem), (max-height:40rem){
+    .box {
+        border-radius: 0px;
+        border: 5px solid rgba(0, 0, 0, 0);
+        position: absolute;
+        width: 100%;
+        height:100dvh;
+        box-shadow: none;
+        justify-content: space-around;
+    }
+    .formbox{
+        max-width: 25rem;
+    }
+
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formbox {
+    --formbox: 80%;
+    /* background: rosybrown; */
+    width: var(--formbox);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formbox2 {
+    /* background:cyan; */
+    grid-template-columns: 1fr 1fr;
+    gap: .8rem;
+    display: inline-grid;
+    width: 100%;
+}
+
+.fieldBox{
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+    
+    box-sizing: border-box;
+    width: 100%;
+    margin: .6rem 0rem;
+    height: 2.5rem;
+    
+    background: #FFFFFF;
+    border: 5px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #3D3D3D;
+    
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.fieldBox:focus{
+    border: 5px solid #787878;
+}
+
+.danger {
+    color: rgb(255, 40, 40);
+    align-self: self-start;
+    margin: 0;
+    font-size: 13px;
+}
+
+.forgot {
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 2rem;
+    
+}
+
+.link {
+    color: #F5B6FF;
+    cursor: pointer;
+    text-decoration: none;
+    grid-row-start: 1;
+    grid-column-start: 0;
+}
+
+.link:hover{
+    font-weight: 600;
+}
+

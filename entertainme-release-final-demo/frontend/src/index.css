@@ -1,0 +1,44 @@
+:root {
+  --width: 30rem;
+  --height: 36rem;
+  --navHeight: 55px;
+  --navWidth: 100%;
+  --footHeight: 1.4rem;
+
+  --bar-width: 2.5rem;
+  --bar-height: .6vh;
+  --hamburger-gap: .2em;
+  --foreground: #535353;
+  --hamback: white;
+  --hammarg: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --ham-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) *2);
+
+  --entertain-color: #6b467e;
+  --button-color: #77589f;
+
+  font-family: 'Inter';
+
+  --background: #363636;
+  background: var(--background);
+
+}
+
+body{
+  margin: 0;
+}
+
+div{
+  margin:0;
+}
+
+@font-face {
+  font-family: 'Irish';
+  src: local('Irish'), url(fonts/IrishGrover-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(fonts/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+}
+
