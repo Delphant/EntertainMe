@@ -1,0 +1,128 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.hamburgerMenu {
+    --x-width: calc(var(--ham-height) * 1.41421356237);
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+
+    width: max-content;
+    
+    position: absolute;
+    right: 2.5rem;
+    cursor: pointer;
+}
+
+.hamburgerMenu::before, 
+.hamburgerMenu::after, 
+.hamburgerMenu input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--hamback);
+    border-radius: 9999px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), 
+                width var(--animation-timing),  
+                rotate var(--animation-timing), 
+                translate var(--animation-timing),
+                background-color var(--animation-timing);
+}
+
+.hamburgerMenu input {
+    appearance: none;
+    padding: 0;
+    margin:0;
+    outline: none;
+    pointer-events: none;
+}
+
+.hamburgerMenu:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height)/-2);
+}
+
+.hamburgerMenu:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height)/2);
+}
+
+.hamburgerMenu input:checked{
+    opacity: 0;
+    width: 0;
+}
+
+
+.sidebar{
+    transition: translate var(--animation-timing);
+    translate: 100%;
+    background-color: rgb(33, 33, 33);
+    max-width: max-content;
+    height: max-content;
+    margin-top: var(--navHeight);
+    margin-left: auto;
+    align-self:normal;
+    border-radius: 0px 0px 0px 15px;
+    padding-bottom: 1.6vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hamburgerMenu:has(input:checked) + .sidebar{
+    translate: 0;
+}
+
+.content{
+
+    font-family: 'inter';
+    font-size: 2.8vh;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    color: var(--hamback);
+    padding: 0;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.icon{
+    --circle: 3.2rem;
+    border-radius: 999px;
+    background: yellow;
+    width: var(--circle);
+    height: var(--circle);
+}
+
+.items1{
+    inline-size: 15rem;
+    overflow-wrap: break-word;
+    font-size: 1.5rem;
+}
+
+.items2 {
+
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.items2:hover {
+    background-color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    height: .4vh;
+    background:aliceblue;
+}

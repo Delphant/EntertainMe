@@ -1,0 +1,70 @@
+.main{
+    width: 100;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    /* background-color: rgb(117, 117, 228); */
+    margin: 3.5em;
+    margin-top: 5.5em;
+    gap: 1.5rem;
+}
+
+
+.name{
+    /* background-color: red; */
+    margin: 0;
+    font-size: 2.2rem;
+    width: max-content;
+    height: max-content;
+    font-weight: 600;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.container{
+    width: 100;
+    height: max-content;
+    background-color: var(--foreground);
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.title{
+    width: 10rem;
+    min-height: 18rem;
+    background-color: rgb(117, 113, 161);
+    flex-shrink: 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: transform var(--animation-timing);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    
+    padding: 15px;
+    color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    word-break: break-word;
+    
+}
+
+.title:hover{
+    transition: transform var(--animation-timing);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:40rem) {
+    .main{
+        margin-top: 17%;
+        margin-bottom: 10%;
+    }
+    .name{
+        font-size: 2rem;
+    }
+}
