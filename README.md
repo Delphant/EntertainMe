@@ -21,7 +21,8 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 ![image](https://github.com/Delphant/EntertainMe/assets/69480306/3ce1d611-e258-48af-8258-a8a4a7380259)
 
 ### Detailed models
-![alt text](https://github.com/Delphant/EntertainMe/assets/69480306/d9e733b0-c872-4c94-9c64-06fd4fbfe1ea "Context Diagram")
+![image](https://github.com/Delphant/EntertainMe/assets/69480306/d9e733b0-c872-4c94-9c64-06fd4fbfe1ea)
+
 **Context Diagram**
 
 
