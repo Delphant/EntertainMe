@@ -20,9 +20,18 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 ### Architecture
 ![image](https://github.com/Delphant/EntertainMe/assets/69480306/3ce1d611-e258-48af-8258-a8a4a7380259)
 
-### Detailed models
+### Detailed Models
 ![image](https://github.com/Delphant/EntertainMe/assets/69480306/d9e733b0-c872-4c94-9c64-06fd4fbfe1ea)
 
-**Context Diagram**
+** Context diagram **
+
+![image](https://github.com/Delphant/EntertainMe/assets/69480306/0ab84a06-61e0-46cb-a021-5f6aefd0d241)
+
+** Data flow Diagram **
+
+![image](https://github.com/Delphant/EntertainMe/assets/69480306/bbf0e07c-755e-45b4-9a8d-74b439db59de)
+
+** Level 0 DFD **
+
 
 
