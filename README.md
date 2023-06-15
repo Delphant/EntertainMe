@@ -1,5 +1,15 @@
 ﻿# EntertainMe! MSCSIT Capstone Project
 
+## Table of Contents
+<details>
+<summary>"Click to expand"</summary> 
+  
+- [About](#about)
+- [Design Process](#design-process)
+
+
+</details>
+
 ## About
 This project was created as our final project for the Sacred Heart University Jach Welsh Computer Science & Information Technology Graduate program. We had six weeks to design a project using an agile workflow, then another six weeks to implement our prototype.
 EntertainMe! is a movie and TV show recommendation web application where users can rate and review media they have seen while getting new recommendations based on the items they view. 
@@ -22,32 +32,42 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 ### Architecture
 
 <p align="center">
-  <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/Delphant/EntertainMe/assets/69480306/3ce1d611-e258-48af-8258-a8a4a7380259)">
+  <img width="500" height="310" src="https://github.com/Delphant/EntertainMe/assets/69480306/3ce1d611-e258-48af-8258-a8a4a7380259">
+</p>
+
+### Detailed Models
+
+<p align="center">
+  <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/d9e733b0-c872-4c94-9c64-06fd4fbfe1ea">
+  <br />
+  Context diagram 
 </p>
 
 
-### Detailed Models
-![image](https://github.com/Delphant/EntertainMe/assets/69480306/d9e733b0-c872-4c94-9c64-06fd4fbfe1ea)
 
-**Context diagram**
+<p align="center">
+  <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/0ab84a06-61e0-46cb-a021-5f6aefd0d241">
+  <br />
+  Data flow diagram
+</p>
 
-<br />
 
-![image](https://github.com/Delphant/EntertainMe/assets/69480306/0ab84a06-61e0-46cb-a021-5f6aefd0d241)
+<p align="center">
+  <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/bbf0e07c-755e-45b4-9a8d-74b439db59de">
+  <br />
+  Level 0 DFD
+</p>
 
-**Data flow Diagram**
+<p align="center">
+  <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/eaae0940-0133-4342-88ea-1078e8d3a809">
+  <br />
+  Use-Case diagram
+</p>
 
-<br />
+### Database Design
 
-![image](https://github.com/Delphant/EntertainMe/assets/69480306/bbf0e07c-755e-45b4-9a8d-74b439db59de)
-
-**Level 0 DFD**
-
-<br />
-
-![image](https://github.com/Delphant/EntertainMe/assets/69480306/eaae0940-0133-4342-88ea-1078e8d3a809)
-
-**Use-Case diagram**
-
-<br />
-
+<p align="center">
+  <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/4f3095ad-1631-4191-bcab-d56e9ba3c22a">
+  <br />
+  ER diagram
+</p>
