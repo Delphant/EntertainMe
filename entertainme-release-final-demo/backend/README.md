@@ -1,6 +1,6 @@
 # EntertainMe
 
-# Build backend
+## Build backend
 * Pre-req:
 1. Python 3.7 or newer from:
 ```
@@ -30,7 +30,7 @@ pip install flask flask_sqlalchemy psycopg2 flask_cors flask_bcrypt flask-jwt-ex
 [Environment]::SetEnvironmentVariable('ENT_DB_PW', '<DB-PW-GOES-HERE>', 'User')
 ```
 
-# Run backend
+## Run backend
 1. Open a Terminal window from the backend directory
 2. Run the following command:
 ```
@@ -41,7 +41,7 @@ flask run
 flask run --host=0.0.0.0
 ```
 
-# Configure Postman
+## Configure Postman
 1. Download Postman:
 ```
 https://www.postman.com/downloads/
