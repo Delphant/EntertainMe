@@ -10,9 +10,9 @@
 - Open CMD
 - CD to the DB_Scripts folder
 - Run the following command:
-  '''
+  ```
   entertainme_backup.cmd
-  '''
+  ```
 
 ### Restore a backup
 
@@ -20,9 +20,9 @@
 - Open CMD
 - CD to the DB_Scripts folder
 - Run the following command:
-  '''
+  ```
   entertainme_restore.cmd {file name that you want to restore from DB_Backups folder}
-  '''
+  ```
 
 ### Creating DB Objects without doing a backup
 
@@ -48,7 +48,7 @@ pip install pipenv
 ```
 pipenv shell
 ```
-Note: If you get an error that pipenv is not a command, add this path to your environment variable. Likely 310 as version.
+Note: If you get an error that pipenv is not a command, add this path to your environment variable. Likely 310 as a version.
 ```
 C:\Users\{YOUR USER PROFILE NAME}\AppData\Roaming\Python\{PYTHON VER
 SION}\Scripts
