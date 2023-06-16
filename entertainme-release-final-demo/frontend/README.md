@@ -1,4 +1,4 @@
-# EntertainMe Frontend
+# EntertainMe! Frontend
 
 ## Install Dependencies
 
@@ -8,7 +8,7 @@
 https://nodejs.org/en
 ```
 
-2. React packages, in terminal:
+2. React packages, in the terminal:
 
 ```
 cd .\frontend
@@ -32,7 +32,7 @@ npm run dev
 
 ## Run Build
 
-1. Build the frontend, creates local folder 'Dist'
+1. Build the frontend, and creates a local folder 'Dist'
 
 ```
 npm run build
