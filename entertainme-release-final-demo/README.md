@@ -96,13 +96,13 @@ https://www.postman.com/downloads/
 https://nodejs.org/en
 ```
 
-2. React packages, in the terminal:
+2. CD to frontend in the terminal:
 
 ```
 cd .\frontend
 ```
 
-3. Install packages
+3. Install required packages
 
 ```
 npm i
