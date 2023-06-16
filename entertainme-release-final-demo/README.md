@@ -4,11 +4,9 @@
 <details>
 <summary>Click to expand</summary> 
   
-- [Database](#entertainme!-database)
-  - [Developers](#developers)
-  - [Development](#development)
-- [Design Process](#design-process)
-- [Figma Prototype](#figma-prototype)
+- [Database](#entertainme-database)
+- [Backend](#entertainme-backend)
+- [Frontend](#entertainme-frontend)
 
 
 </details>
