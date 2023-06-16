@@ -1,4 +1,4 @@
-# EntertainMe
+# EntertainMe! Backend Set up
 
 ## Build backend
 * Pre-req:
@@ -14,7 +14,7 @@ pip install pipenv
 ```
 pipenv shell
 ```
-Note: If you get an error that pipenv is not a command, add this path to your environment variable. Likely 310 as version.
+Note: If you get an error that pipenv is not a command, add this path to your environment variable. Likely 310 as a version.
 ```
 C:\Users\{YOUR USER PROFILE NAME}\AppData\Roaming\Python\{PYTHON VER
 SION}\Scripts
@@ -36,7 +36,7 @@ pip install flask flask_sqlalchemy psycopg2 flask_cors flask_bcrypt flask-jwt-ex
 ```
 flask run
 ```
-3. Make application available to other devices on the same network:
+3. Make the application available to other devices on the same network:
 ```
 flask run --host=0.0.0.0
 ```
