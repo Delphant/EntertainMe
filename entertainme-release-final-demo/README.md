@@ -1,5 +1,18 @@
 # Set up process
 
+## Table of Contents
+<details>
+<summary>Click to expand</summary> 
+  
+- [Database](#entertainme!-database)
+  - [Developers](#developers)
+  - [Development](#development)
+- [Design Process](#design-process)
+- [Figma Prototype](#figma-prototype)
+
+
+</details>
+
 ## EntertainMe! Database
 
 - Pre-req:
