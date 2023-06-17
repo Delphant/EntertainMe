@@ -70,7 +70,15 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
   ER diagram
 </p>
 
-## Figma Prototype
+## Figma Design vs Prototype
+
+<p float="left" align="center">
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/526dbd1e-ecc9-418c-b477-c0b508d7c087" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/1d08d9ad-2312-4400-9b07-ec8eb2e8cd68" width="45%" />
+  </br>
+  Login Page
+</p>
 
 ## Datasets
 https://www.kaggle.com/datasets/shivamb/netflix-shows
