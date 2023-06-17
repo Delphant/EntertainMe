@@ -68,6 +68,8 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
   <img width="500" height="300" src="https://github.com/Delphant/EntertainMe/assets/69480306/4f3095ad-1631-4191-bcab-d56e9ba3c22a">
   <br />
   ER diagram
+  </br>
+  </br>
 </p>
 
 ## Figma Design vs Prototype
@@ -77,8 +79,54 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/Delphant/EntertainMe/assets/69480306/1d08d9ad-2312-4400-9b07-ec8eb2e8cd68" width="45%" />
   </br>
-  Login Page
+  <strong >Login Page</strong>
+</br>
+</br>
+</p>
+
+<p float="left" align="center">
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/051d5350-4aee-4903-82ea-769e29fa9ad1" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/19539a61-cb41-47ce-a4fe-a300e33e4484" width="45%" />
+  </br>
+  <strong>Create Account Page</strong>
+  </br>
+  </br>
+</p>
+
+<p float="left" align="center">
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/3ee4a07c-2b84-4143-b88b-86412b3455f0" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/b087efa4-8a8c-4077-b26a-a2542e811ccf" width="45%" />
+  </br>
+  <strong>Main Page</strong>
+  </br>
+  <a>Note: Our Dataset does not include images, finding images was outside the scope of this project</a> 
+  </br>
+  </br>
+</p>
+
+<p float="left" align="center">
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/6be6c33b-a814-4ab4-916b-a7bb65a3922a" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/a9f209cc-076b-4d3d-9bad-bc787c43226f" width="45%" />
+  </br>
+  <strong>Watchlist Page</strong>
+  </br>
+  </br>
+</p>
+
+<p float="left" align="center">
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/6413de34-f947-4727-9f6c-d2a83604631c" width="45%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/3d3c09e1-8e69-4141-b52a-aa845a453765" width="28%" />
+  </br>
+  <strong>Title Page</strong>
+  </br>
+  </br>
 </p>
 
 ## Datasets
+
+This link provides data from Netflix, Hulu, Amazon Prime Video and Disney+
 https://www.kaggle.com/datasets/shivamb/netflix-shows
