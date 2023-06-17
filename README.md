@@ -97,7 +97,7 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 <p float="left" align="center">
   <img src="https://github.com/Delphant/EntertainMe/assets/69480306/3ee4a07c-2b84-4143-b88b-86412b3455f0" width="45%" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/b087efa4-8a8c-4077-b26a-a2542e811ccf" width="45%" />
+  <img src="https://github.com/Delphant/EntertainMe/assets/69480306/a8897449-1b53-4b7f-91bf-d2c07e952faa" width="45%" />
   </br>
   <strong>Main Page</strong>
   </br>
