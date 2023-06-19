@@ -9,7 +9,7 @@
   - [Development](#development)
 - [Features](#features)
 - [Design Process](#design-process)
-- [Figma Prototype](#figma-prototype)
+- [Figma Design vs Prototype](#figma-design-vs-prototype)
 - [Datasets](#datasets)
 
 </details>
