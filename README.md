@@ -7,9 +7,10 @@
 - [About](#about)
   - [Developers](#developers)
   - [Development](#development)
+- [Features](#features)
 - [Design Process](#design-process)
 - [Figma Prototype](#figma-prototype)
-
+- [Datasets](#datasets)
 
 </details>
 
@@ -27,8 +28,22 @@ EntertainMe! is a movie and TV show recommendation web application where users c
 - **Backend:** Python with Flask
 - **Database:** PostgreSQL
 
+## Features
+* Account creation with input validation
+* User authentication with automatic refreshing tokens
+* Main page with title recommendations and ratings colorized by genre
+* Customizable watchlist
+* Title page
+  * Title information with actors, genre, rating, and description
+  * Adding/deleting from the user's watchlist
+  * Viewing user reviews
+  * Writing reviews with ratings
+  * Similar title recommendations based on the selected title
+* Search functionality based on alphabetic order
+* App-wide error handling with toasts
+
 ## Design Process
-The design phase started our course CS620 Info Analysis and System Design. Our objective for this six-week course was to develop a capstone idea and design how the system would function. For our documentation, we simulated the cost analysis as if the project would go on to be a finished product. Our project development followed an agile workflow approach, which involved weekly meetings to present deliverables and decide on the next steps to be taken.
+The design phase started our course CS620 Info Analysis and System Design. Our objective for this six-week course was to develop a capstone idea and design how the system would function. For our documentation, we simulated the cost analysis as if the project would go on to be a finished product. Following CS620 came CS670 where we had six weeks to implement our design and each split off to work on sections of the application. Our project development followed an agile workflow approach, which involved weekly meetings to present deliverables and decide on the following steps.
 
 ### Architecture
 
@@ -130,3 +145,9 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 
 This link provides data from Netflix, Hulu, Amazon Prime Video and Disney+
 https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+
+### TO ADD
+- postman
+- rec algorithm
+- deliverables or non/functional requirements
