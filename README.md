@@ -9,6 +9,8 @@
   - [Development](#development)
 - [Features](#features)
 - [Design Process](#design-process)
+  - [Functional Requirements](#functional-requirements)
+  - [Non-Functional Requirements](#non-functional-requirements)
 - [Figma Design vs Prototype](#figma-design-vs-prototype)
 - [Datasets](#datasets)
 
@@ -44,6 +46,10 @@ EntertainMe! is a movie and TV show recommendation web application where users c
 
 ## Design Process
 The design phase started our course CS620 Info Analysis and System Design. Our objective for this six-week course was to develop a capstone idea and design how the system would function. For our documentation, we simulated the cost analysis as if the project would go on to be a finished product. Following CS620 came CS670 where we had six weeks to implement our design and each split off to work on sections of the application. Our project development followed an agile workflow approach, which involved weekly meetings to present deliverables and decide on the following steps.
+
+### Functional Requirements
+
+### Non-Functional Requirements
 
 ### Architecture
 
