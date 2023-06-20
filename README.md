@@ -11,6 +11,9 @@
 - [Design Process](#design-process)
   - [Functional Requirements](#functional-requirements)
   - [Non-Functional Requirements](#non-functional-requirements)
+  - [Architecture](#architecture)
+  - [Detailed Models](#detailed-models)
+  - [Database Design](#database-design)
 - [Figma Design vs Prototype](#figma-design-vs-prototype)
 - [Datasets](#datasets)
 
@@ -49,7 +52,19 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 
 ### Functional Requirements
 
+- User authentication and account creation
+- Rate a title
+- Searching titles
+- Get recommendation
+- Add/remove the title from the user's watchlist
+
 ### Non-Functional Requirements
+
+- User Friendliness
+- Scalability
+- Security
+- Compatibility
+- Capacity
 
 ### Architecture
 
@@ -156,4 +171,3 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 ### TO ADD
 - postman
 - rec algorithm
-- deliverables or non/functional requirements
