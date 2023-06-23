@@ -66,6 +66,17 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 - Compatibility
 - Capacity
 
+### Recommendation Algorithm Weights
+
+When titles are recommended to a user, the title ID previously selected is fed into the algorithm and spits out 20~ titles based on parts of the original title. We weigh the Genre, Actors, Directors, and the title's rating against similar titles and select the tags with the closest matches to the original title.
+
+- Genre: 25%
+- Actors: 30%
+- Directors: 15%
+- Rating: 20% <br/>
+<br/>
+Note: These values are subject to be changed
+
 ### Architecture
 
 <p align="center">
@@ -164,10 +175,9 @@ The design phase started our course CS620 Info Analysis and System Design. Our o
 
 ## Datasets
 
-This link provides data from Netflix, Hulu, Amazon Prime Video and Disney+
+This link provides datasets from Netflix, Hulu, Amazon Prime Video, and Disney+ from roughly 2021.
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 
 ### TO ADD
-- postman
-- rec algorithm
+- postman collection
