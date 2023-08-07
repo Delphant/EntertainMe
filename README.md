@@ -179,5 +179,3 @@ This link provides datasets from Netflix, Hulu, Amazon Prime Video, and Disney+ 
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 
-### TO ADD
-- postman collection
